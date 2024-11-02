@@ -5,7 +5,7 @@ st.set_page_config(page_title="Medi-RAG-Intelligent-Medical-Report-Analyzer", pa
 
 st.title("🩺 Medi-RAG: AI-powered Medical Report Analysis 🧠")
 
-st.image(image="assets/medi-rag.jpg", width=500, caption="Medi-RAG-Intelligent-Medical-Report-Analyzer")
+st.image(image="assets/medi-rag.jpg", caption="Medi-RAG-Intelligent-Medical-Report-Analyzer")
 
 st.subheader("""🌐 Unlock the future of healthcare with Medi-RAG, a 
              revolutionary tool that leverages AI 🤖 to analyze and summarize complex medical reports 
