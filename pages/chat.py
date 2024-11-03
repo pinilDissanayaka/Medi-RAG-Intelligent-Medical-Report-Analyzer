@@ -14,8 +14,7 @@ with st.sidebar:
                 st.session_state["UPLOADED_FILES"]=uploaded_files
     else:
         groq_api_key=st.text_input(label="GROQ API KEY", placeholder="Enter your GROQ API key", type="password")
-        st.info("Please provide your GROQ API key", icon="🔒")
-        st.info("You can get your API key from https://groq.com/", icon="🔑")
+        st.info("Please provide your GROQ API key \n You can get your API key from https://groq.com/", icon="🔑")
         
     
 
